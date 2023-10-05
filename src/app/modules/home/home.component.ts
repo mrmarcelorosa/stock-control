@@ -24,11 +24,9 @@ export class HomeComponent{
   })
 
   onSubmitLoginForm():void{
-    console.log("Dados formulário de login", this.loginForm.value)
   }
 
   onSubmitSignupForm():void{
-    console.log("Dados formulário de signup", this.signupForm.value)
   }
 
 }
